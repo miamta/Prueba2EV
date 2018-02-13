@@ -44,7 +44,7 @@ public function mostrarUltimo($Nombre){
 		return $resultado;
 }
 
-//
+//Funcion para mostrar el usuario ID_2
 public function muestraUsuario($Nombre){
   $resultado = $this->conexion()->query("SELECT * FROM usuarios WHERE ID='".$ID='2'."'");
 		return $resultado;
